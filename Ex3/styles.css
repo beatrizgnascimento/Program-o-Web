@@ -1,0 +1,158 @@
+html,
+body {
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: black;
+  width: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  font-size: larger;
+}
+
+li {
+  margin: 0 20px;
+}
+
+.secao-login {
+  box-shadow: 0px 0px 3px;
+  padding-left: 60px;
+  padding-right: 60px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.secao-login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-login label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Comme", sans-serif;
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.secao-login input {
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.secao-login input:focus {
+  border-color: black;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  display: flex;
+  padding-top: 100px;
+}
+
+#p-login {
+  display: block;
+  text-align: left;
+}
+
+footer {
+  margin-top: 15px;
+  padding-top: 210px;
+  font-size: x-small;
+  width: 100%;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
+#p-login {
+  text-decoration-line: underline;
+  color: black;
+  font-weight: bold;
+}
+
+.secao-login button {
+  background-color: #333;
+  color: #fff;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.secao-login button:hover {
+  background-color: #444;
+}
+
+.secao-login p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.secao-login a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}

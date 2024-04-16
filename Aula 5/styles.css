@@ -1,0 +1,25 @@
+p {
+  color: #ff0a3c;
+}
+
+#subtitulo1 {
+  color: brown;
+  background-color: aquamarine;
+}
+
+.conteudo {
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline solid blue;
+}
+
+a[href="https:/www.github.com"] {
+  color: black;
+}

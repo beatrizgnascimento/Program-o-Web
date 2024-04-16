@@ -1,0 +1,25 @@
+p {
+  border: dashed 1px blue;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+}
+
+figure {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  border: 1px solid blue;
+  margin: auto;
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+}

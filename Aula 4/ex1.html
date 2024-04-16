@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://unifei.edu.br">UNIFEI</a>
+        </li>
+        <li><a href="https://proex.unifei.edu.br">PROEX</a></li>
+        <li><a href="https://www.byronsolutions.com">INTEGRA UNIFEI</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Formulário de Apresentação do Projeto de Extensão</h1>
+    Nesse formulário sua equipe deverá preencher os dados do seu projeto de extensãp para que a PROEX possa distribuir
+    os stands da forma mais adequada
+    <p></p>
+    <form action="/projeto" method="post">
+      <fieldset>
+        <legend>Identificação do Projeto</legend>
+        <label for="nomeProjeto">Nome do Projeto</label>
+        <input type="text" name="nomeProjeto" id="nomeProjeto">
+        <label for="quantidadeIntegrantes">Quantidade de Integrantes</label>
+        <input type="text" name="quantidadeIntegrantes" id="quantidadeIntegrantes">
+        <label for="instituto">Instituto de Localização</label>
+        <input type="text" name="instituto" id="instituto">
+      </fieldset>
+
+      <fieldset>
+        <legend>Área de Atuação</legend>
+        <p></p>
+        Selecione apenas uma opção
+        <p></p>
+        <input type="radio" name="tipo-area" id="web" value="web">
+        <label for="web">Aplicação Web</label>
+        <input type="radio" name="tipo-area" id="jogos" value="jogos">
+        <label for="jogos">Desenvolvimento de Jogos</label>
+        <input type="radio" name="tipo-area" id="drones" value="drones">
+        <label for="drones">Drones</label>
+        <input type="radio" name="tipo-area" id="robos" value="robos">
+        <label for="robos">Competição de robôs</label>
+        <input type="radio" name="tipo-area" id="contabilidade" value="contabilidade">
+        <label for="contabilidade">Contabilidade</label>
+        <input type="radio" name="tipo-area" id="meteorologia" value="meteorologia">
+        <label for="meteorologia">Meteorologia</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Fomento</legend>
+        <label for="tipo-projeto">Tipo</label>
+        <select name="tipo-projeto" id="tipo-projeto">
+          <option value="empresa-junior">Empresa Júnior</option>
+          <option value="competicao">Competição</option>
+          <option value="ic">Iniciação Científica</option>
+        </select>
+      </fieldset>
+      <button>Enviar</button>
+    </form>
+  </main>
+  <p></p>
+
+  <footer>
+    Feito com ♥ por <a href="https://www.linkedin.com/in/beatriz-nascimento-10726126a/">Beatriz</a>
+  </footer>
+
+</body>
+
+</html>
