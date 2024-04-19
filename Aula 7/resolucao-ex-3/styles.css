@@ -1,0 +1,64 @@
+body {
+  background-color: bisque;
+  margin: 0;
+}
+
+.secao-login {
+  border: 2px solid black;
+  border-radius: 1em;
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin: 3% auto;
+  font-family: "Comme", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  border-radius: 1em;
+}
+
+button {
+  width: 30%;
+  border-radius: 1em;
+  background-color: aliceblue;
+  padding: 0.25% 4%;
+}
+
+#p-login {
+  text-align: left;
+  margin-left: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li > a {
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin: 0 2%;
+}
+
+nav {
+  background-color: black;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
