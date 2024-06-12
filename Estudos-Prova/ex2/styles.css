@@ -1,0 +1,42 @@
+header {
+  position: sticky;
+  margin: 0;
+  top: 0;
+  background-color: black;
+  border: 1px solid black;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+
+main {
+  height: 70vh;
+  background-color: antiquewhite;
+  margin-left: 0;
+}
+
+.secao-login {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 1.2em;
+  margin: 2em;
+}
+
+#links {
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}

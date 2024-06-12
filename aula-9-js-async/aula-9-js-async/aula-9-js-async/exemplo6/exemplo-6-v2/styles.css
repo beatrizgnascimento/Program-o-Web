@@ -1,0 +1,9 @@
+.area-pk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}

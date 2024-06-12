@@ -1,0 +1,41 @@
+main {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+input {
+  width: 50px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.operacoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: blanchedalmond;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}

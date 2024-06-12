@@ -1,0 +1,50 @@
+figure {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+}
+
+#pontuacao {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: black solid 2px;
+}
+
+.botoes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  align-content: stretch;
+}
+.botoes button {
+  width: 100%;
+}
+
+#btnJogador1 {
+  background-color: green;
+}
+
+#btnJogador2 {
+  background-color: blue;
+}
+
+#btnReiniciar {
+  background-color: red;
+}

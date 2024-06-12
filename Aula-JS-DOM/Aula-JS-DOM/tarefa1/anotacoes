@@ -1,0 +1,31 @@
+Deixar o
+<script src="main.js"></script> na ultima linha para o DOM pegar todos os elementos
+
+Tarefa 1
+- document.getElementById('titulo') ou document.getElementByTagName('h1')
+
+document.querySelector() Funciona como o CSS, para id passamos o # para classe . e para elemento 'h1'-ex
+document.quertSelectorAll() - devolve todos
+
+Para navegar entre as propriedades:
+elem.innerText
+
+const element = document.getElementsByClass('')
+
+const elemento = document.querySelector("p");
+
+const elementos = document.querySelectorAll("p");
+
+for (let i = 0; i < elementos.length; i++) {
+  console.log(elementos[i].innerText);
+}
+
+for(elem of elementos){
+  console.log(elem.innerText)
+}
+
+btn.addEventListener("click", (e) => {
+  console.log("Fui clicado");
+  console.log(e.target);
+}); //adicionou evento de clique
+//usualmente usamos e como nome da variável
